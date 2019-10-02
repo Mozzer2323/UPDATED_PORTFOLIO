@@ -1,0 +1,33 @@
+body {
+    padding: 60px;
+}
+
+h1 {
+    padding-top: 20px;
+    font-family: "Bodoni";
+    color: black;
+}
+
+.aboutmetext {
+    padding-left: 15px;
+    width: 900px;
+    font-family: "Bodoni";
+    font-size: 30px;
+    color: black;
+}
+
+.aboutimage {
+    padding-top: 60px;
+    padding-left: 200px;
+    float: right;
+}
+
+.nav-flex-column {
+    text-align: right;
+    color: black;
+    font-family: "Bodoni";
+    font-size: 15px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
