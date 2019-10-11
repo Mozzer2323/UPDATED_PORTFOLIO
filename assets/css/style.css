@@ -1,28 +1,124 @@
 body {
-    padding: 60px;
+    padding: 20px;
 }
 
-.imagehome {
-    padding-right: 40px;
+.headerbg{
+    opacity: 0.85;
+    font-family: "Sagon";
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    height: 230px;
+    background: black;
+}
+
+.headertxt {
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.mediaicons {
+    padding-right: 20px;
+    color: white;    
+    float: right;
+}
+
+.navbar {
+    outline: none;
+    box-shadow: none;
+    color: white;
     float: left;
 }
 
-.texthome {
-    font-family: "Bodoni";
-    width: 700x;
+.aboutimg {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    float: left;
 }
 
-p {
-    padding-left: 5px;
-    font-size: 20px;
+.homebody {
+    display: table;
+    clear: both;
+    padding: 40px;
 }
 
-.nav-flex-column {
-    text-align: right;
-    color: black;
-    font-family: "Bodoni";
-    font-size: 15px;
-    position: absolute;
-    top: 50px;
-    right: 10px;
+
+.homeabout {
+    opacity: 0.85;
+    font-family: "Sagon";
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-left: 20px;
+    border-radius: 25px 25px 0px 0px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    width: 55%;
+    float: left;
+    background: black;
+}
+
+
+.qualheader{
+    opacity: 0.85;
+    font-family: "Sagon";
+    text-align: center;
+    color: white;
+    border-radius: 25px 25px 0px 0px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    width: 40%;
+    background: black;
+    float: right;
+}
+    
+.aboutbody {
+    background: white;
+    border-radius: 0px 0px 25px 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    padding: 10px;
+    float: left;
+    width: 55%;
+}
+
+.abouttxt {
+    width: 465px;
+    padding-top: 10px;
+    font-family: "Sagon";
+    font-size: 25px;
+    float: right;
+}
+
+
+.qual {
+    background: white;
+    border-radius: 0px 0px 25px 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    float: right;
+    padding: 10px;
+    width: 40%;
+}
+
+.qualicons {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.noderow {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
